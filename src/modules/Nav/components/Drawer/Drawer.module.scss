@@ -1,0 +1,12 @@
+@import '../../../../style/variables/colors';
+
+.Drawer{
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: $accent;
+  transition: .5s all;
+  z-index: 3;
+  padding: 40px;
+}

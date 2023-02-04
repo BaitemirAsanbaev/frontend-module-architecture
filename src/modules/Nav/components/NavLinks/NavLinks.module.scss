@@ -1,0 +1,29 @@
+@import '../../../../style/mixins/mixins';
+
+
+.NavLinks, .DrawerLinks{
+  width: 100%;
+  justify-content: space-evenly;
+  list-style: none;
+  a{
+    text-decoration: none;
+    font-size: 20px;
+  }
+}
+
+.NavLinks{
+  display: flex;
+}
+.DrawerLinks{
+  display: none;
+}
+@media (max-width: 700px) {
+  .NavLinks{
+    display: none;
+  }
+  .DrawerLinks{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

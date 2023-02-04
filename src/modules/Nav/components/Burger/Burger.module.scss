@@ -1,0 +1,16 @@
+@import '../../../../style/variables/colors';
+
+.Burger{
+  cursor: pointer;
+  div{
+    width: 70px;
+    height: 10px;
+    margin: 5px 0;
+    background-color: $main;
+  }
+}
+@media (min-width: 700px) {
+  .Burger{
+    display: none;
+  }
+}
